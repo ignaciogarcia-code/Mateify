@@ -1,0 +1,269 @@
+.Register {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 93%;
+    width: 959px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 50px;
+}
+
+.padlock {
+    width: 85px;
+}
+
+.register_h {
+    margin-top: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: #333333;
+}
+
+.inputs_container {
+    margin-top: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.email_input, .password_input {
+    /* White / High Emphasis */
+    background: #FFFFFF;
+    /* Gray / Divider */
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 62px;
+    width: 578px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 16px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    color: #242424;
+}
+
+.password_input {
+    margin-top: 44px;
+}
+
+::placeholder {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    color: #C4C4C4;
+}
+
+.create_playlist {
+    margin-top: 47px;
+    background: #F50057;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    height: 58px;
+    width: 578px;
+    left: 0px;
+    top: 0px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.f_password {
+    margin-top: 41px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #009688;
+    text-decoration: none;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sp_line {
+    margin-top: 38px;
+    border: 0px;
+    height: 1px;
+    background-color: #E5E5E5;
+    width: 578px;
+}
+
+.no_acc {
+    margin-top: 42.95px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #C4C4C4;
+}
+
+.register_btn {
+    margin-top: 29px;
+    height: 44px;
+    width: 342px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid #009688;
+}
+
+.register_a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #009688;
+    text-decoration: none;
+}
+
+@media (max-width:770px) {
+    .form_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+        margin: 0;
+        background: #FFFFFF;
+    }
+    .Register {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputs_container {
+        margin-top: 20px;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .email_input, .password_input {
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        box-sizing: border-box;
+        border-radius: 4px;
+        height: 50px;
+        width: 90%;
+        border-radius: 4px;
+        outline: none;
+        padding-left: 16px;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 30px;
+        letter-spacing: 0.15000000596046448px;
+        text-align: left;
+        color: #242424;
+    }
+    .password_input{
+        margin-top: 20px
+    }
+    .create_playlist {
+        margin-top: 25px;
+        background: #F50057;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+        border-radius: 4px;
+        height: 45px;
+        width: 90%;
+        border: none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 100%;
+        text-transform: uppercase;
+    }
+    .sp_line {
+        margin-top: 20px;
+        border: 0px;
+        height: 1px;
+        background-color: #E5E5E5;
+        width: 80%;
+    }
+    .register_btn {
+        height: 35px;
+        width: 50%;
+        border-radius: 4px;
+    }
+    .f_password {
+        margin-top: 25px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .no_acc {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 100%;
+        line-height: 16px;
+        /* or 114% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        color: #C4C4C4;
+        margin-top: 20px;
+
+    }
+}
