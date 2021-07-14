@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Mateify/static/css/main.f3644e2b.chunk.css",
+    "main.js": "/Mateify/static/js/main.1f519968.chunk.js",
+    "main.js.map": "/Mateify/static/js/main.1f519968.chunk.js.map",
+    "runtime-main.js": "/Mateify/static/js/runtime-main.7cb06383.js",
+    "runtime-main.js.map": "/Mateify/static/js/runtime-main.7cb06383.js.map",
+    "static/js/2.acf6c4e6.chunk.js": "/Mateify/static/js/2.acf6c4e6.chunk.js",
+    "static/js/2.acf6c4e6.chunk.js.map": "/Mateify/static/js/2.acf6c4e6.chunk.js.map",
+    "static/js/3.a7cbbe2a.chunk.js": "/Mateify/static/js/3.a7cbbe2a.chunk.js",
+    "static/js/3.a7cbbe2a.chunk.js.map": "/Mateify/static/js/3.a7cbbe2a.chunk.js.map",
+    "index.html": "/Mateify/index.html",
+    "static/css/main.f3644e2b.chunk.css.map": "/Mateify/static/css/main.f3644e2b.chunk.css.map",
+    "static/js/2.acf6c4e6.chunk.js.LICENSE.txt": "/Mateify/static/js/2.acf6c4e6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7cb06383.js",
+    "static/js/2.acf6c4e6.chunk.js",
+    "static/css/main.f3644e2b.chunk.css",
+    "static/js/main.1f519968.chunk.js"
+  ]
+}
